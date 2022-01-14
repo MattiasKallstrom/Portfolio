@@ -32,11 +32,3 @@ export const projects = [
       link: "https://pythonbootcamp.com",
     },
   ]
-
-  export const skills = [
-  {
-      title: "Javascript",
-      subtitle: "React, vanilla, typescript",
-      description: "lorem"
-  }
-  ]
