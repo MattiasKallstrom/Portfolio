@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{mattiaskallstrom}.github.io/{MattiasKallstrom}",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@heroicons/react": "^1.0.5",
@@ -12,7 +11,6 @@
     "bootstrap": "^4.6.0",
     "emailjs": "^3.7.0",
     "firebase": "^9.6.3",
-    "gh-pages": "^3.2.3",
     "heroicons": "^1.0.5",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
