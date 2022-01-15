@@ -8,6 +8,9 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Mattias Källström
           </h1>
+          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray">
+            Frontend focused web developer
+          </h2>
           <p className="mb-8 leading-relaxed">
             I love building great apps, always down to learn new things.
           </p>
