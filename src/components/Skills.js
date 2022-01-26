@@ -1,5 +1,6 @@
 import { ChipIcon } from "@heroicons/react/solid"
 import React from "react"
+import { skills } from "../skillsData"
 
 export default function Skills() {
   return (
@@ -11,12 +12,20 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+          I've been focusing mostly on React as it was the first framework i started working with outside of vanilla JS, and it's been super fun!
+           Going to broaden my horizons with more in-depth learning on NextJs and VueJs in the near future.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        {skills.map((skill) => (
+            <div key={skill} className="p-2 sm:w-1/2 w-full">
+              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <span className="title-font font-medium text-white">
+                  {skill.title}
+                </span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

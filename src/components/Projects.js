@@ -1,6 +1,6 @@
 import React from "react"
 import { CodeIcon } from "@heroicons/react/solid"
-import { projects } from "../data"
+import { projects } from "../projectData"
 
 export default function Projects() {
     return (
@@ -12,9 +12,7 @@ export default function Projects() {
                 Apps I've Built
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-                facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-                fuga dolore.
+                A few of the apps i've built, more can be found on my GitHub.
               </p>
             </div>
             <div className="flex flex-wrap -m-4">
@@ -29,7 +27,7 @@ export default function Projects() {
                       className="absolute inset-0 w-full h-full object-cover object-center"
                       src={project.image}
                     />
-                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                    <div className="px-8 py-10 relative z-10 w-full h-80 border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                       <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                         {project.subtitle}
                       </h2>
