@@ -18,9 +18,15 @@ export const skills = [
     title: "NextJs",
   },
   {
+    title: "JQuery",
+  },
+  {
     title: "TailwindCSS",
   },
   {
     title: "GraphQL",
+  },
+  {
+    title: "PHP",
   },
 ];
