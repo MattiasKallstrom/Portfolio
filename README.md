@@ -1,1 +1,1 @@
-Portfolio page, bootstrapped with Create React App.
+Portfolio page made with React, bootstrapped with Create React App.
