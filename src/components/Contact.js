@@ -12,10 +12,10 @@ export default function Contact() {
               </h2>
               <div className="flex m-2">
                 <a href="https://github.com/MattiasKallstrom">
-                  <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v1.png" />{" "}
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />{" "}
                 </a>
                 <a href="https://www.linkedin.com/in/mattias-k%C3%A4llstr%C3%B6m-061b73193/">
-                  <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />{" "}
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v1.png" />{" "}
                 </a>
               </div>
             </div>
