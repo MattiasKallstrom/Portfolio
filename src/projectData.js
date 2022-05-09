@@ -21,6 +21,6 @@ export const projects = [
     description:
       "First attempt at learning Vue.js",
     image: require("./assets/VuePreview.png"),
-    link: "https://mattiaskallstrom.github.io/Vuetodo/"
+    link: "https://github.com/MattiasKallstrom/Vuetodo"
   },
 ]
