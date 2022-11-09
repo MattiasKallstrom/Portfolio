@@ -13,7 +13,6 @@ export default function Skills() {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           I've been focusing mostly on React as it was the first framework i started working with outside of vanilla JS, and it's been super fun!
-           Going to broaden my horizons with more in-depth learning on NextJs and VueJs in the near future.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

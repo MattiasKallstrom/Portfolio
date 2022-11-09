@@ -11,12 +11,11 @@ export default function About() {
             Mattias Källström 
             <br></br>
             <br className="hidden lg:inline-block" />
-            Front-end focused developer
+            Frontend Developer
           </h1>
           <p className="mb-8 leading-relaxed">
-            Are you in the need for a fresh junior web developer? A motivated
-            and fast learner? That's where I come in! Click on the button below
-            to download my CV.
+            Curious junior frontend developer with a focus on JavaScript.<br></br>
+            Confident in React.js and TypeScript alike.
           </p>
           <p className="mb-8">
             Shoot me an email at: mattias-kallstrom@hotmail.com

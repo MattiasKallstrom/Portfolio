@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Exam project",
-    subtitle: "React.js and Firebase",
+    title: "Calculator",
+    subtitle: "React.js",
     description:
-      "Last examination for my 2 years studying at Changemaker Educations web development programme.",
-    image: require("./assets/ExamsPreview.png"),
-    link: "https://mattiaskallstrom.github.io/Exams/"
+      "Calculator written with React.js",
+    image: require("./assets/calcPreview.png"),
+    link: "https://github.com/MattiasKallstrom/calculator"
   },
   {
     title: "Cookie Clicker",
@@ -22,5 +22,13 @@ export const projects = [
       "First attempt at learning Vue.js",
     image: require("./assets/VuePreview.png"),
     link: "https://github.com/MattiasKallstrom/Vuetodo"
+  },
+  {
+    title: "Exam project",
+    subtitle: "React.js and Firebase",
+    description:
+      "Last examination for my 2 years studying at Changemaker Educations web development programme.",
+    image: require("./assets/ExamsPreview.png"),
+    link: "https://mattiaskallstrom.github.io/Exams/"
   },
 ]
